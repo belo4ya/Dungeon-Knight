@@ -1,0 +1,12 @@
+levels:
+  - !empty_map {}
+  - !special_map
+    rat: 5
+    python: 3 # ADDED new enemie at 2nd map (and random map)
+  - !special_map
+    rat: 10
+    knight: 5
+  - !special_map
+    rat: 10
+    knight: 10
+  - !random_map {}
